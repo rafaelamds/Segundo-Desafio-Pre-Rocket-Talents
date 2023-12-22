@@ -1,0 +1,49 @@
+{
+    "fieldSets": [
+        {
+            "fields": [
+                {
+                    "name": "buttonColor",
+                    "label": "Cor do Botão",
+                    "type": "colorPalette",
+                    "dataType": "object",
+                    "defaultValue": {
+                    "cssClass": "primary",
+                    "rgbValue": "rgb(255,255,255)"
+                    }
+                },
+                {
+                    "name": "buttonTextColor",
+                    "label": "Cor do Texto do Botão",
+                    "type": "colorPalette",
+                    "dataType": "object",
+                    "defaultValue": {
+                     "cssClass": "white",
+                     "rgbValue": "rgb(255,255,255)"
+                    }
+                },
+                {
+                    "name": "overlayColor",
+                    "label": "Cor da Película Overlay",
+                    "type": "colorPalette",
+                    "dataType": "object",
+                    "defaultValue": {
+                    "cssClass": "black",
+                    "rgbValue": "rgba(0,0,0,0.5)"
+                    }
+                },
+							                {
+                    "name": "opacity",
+                    "label": "opacity overlay",
+                    "description": "opacidade da pelicula",
+                    "type": "text",
+                    "typeOptions": {
+                        "placeholder": "opacidade da pelicula 0,10..100%"
+                    },
+                    "dataType": "int",
+                    "defaultValue": "20"
+                }
+            ]
+        }
+    ]
+}

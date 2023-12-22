@@ -1,0 +1,30 @@
+.fragment_1101 {
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+    transition: opacity 1s ease-in-out;
+
+    .card-img-overlay h1 {
+        font-size: 2rem;
+    }
+
+    .card-img-overlay p {
+        font-size: 1rem;
+    }
+
+    .card-img-overlay a.btn {
+        font-size: 1rem;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+}	
+.card-img-overlay {	
+	    z-index: 1; 
+}

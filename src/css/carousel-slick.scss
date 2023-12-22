@@ -1,0 +1,61 @@
+/*Aqui está o estilo do Carousel*/
+/* Aqui está o estilo do Carousel */
+.estrutura-carousel {
+    padding: 30px;
+    background-color: #eeeeee;
+    border-radius: 20px;
+}
+
+.adt-noticias-carousel {
+    width: 60%;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.adt-noticias-slides img {
+    width: 100%;
+    height: auto; /* Usar 'auto' mantém a proporção da imagem */
+    border-radius: 20px;
+}
+
+.adt-noticias-slides {
+    width: 100%; /* Ajustado para ocupar a largura total do container pai */
+}
+
+.titulo-noticias,
+a,
+.categorias {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-top: 10px;
+    font-size: 1em; /* Tamanho base do texto usando 'em' */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.categorias {
+    font-size: 1em; /* Tamanho base para categorias */
+    padding-top: 10px;
+    text-align: center; /* Centralizar o texto das categorias */
+}
+
+/* Media query para telas menores */
+@media screen and (max-width: 768px) {
+    .titulo-noticias,
+    a,
+    .categorias {
+        font-size: 0.8em; /* Reduzindo o tamanho do texto para telas menores */
+        text-align: left;
+    }
+}
+
+/* Media query para telas ainda menores */
+@media screen and (max-width: 300px) {
+    .titulo-noticias,
+    a,
+    .categorias {
+        font-size: 0.6em; /* Reduzindo ainda mais para telas muito pequenas */
+        text-align: left;
+    }
+}

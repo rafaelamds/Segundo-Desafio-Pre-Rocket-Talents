@@ -1,0 +1,39 @@
+{
+    "fieldSets": [
+        {
+            "fields": [
+                {
+                    "name": "numbersCards",
+                    "label": "Número de Cards",
+                    "description": "Quantidade de Cards",
+                    "type": "text",
+                    "typeOptions": {
+                        "placeholder": "Numero de cards"
+                    },
+                    "dataType": "int",
+                    "defaultValue": "3"
+                },
+                {
+                    "name": "buttonColor",
+                    "label": "Cor do Botão",
+                    "type": "colorPalette",
+                    "dataType": "object",
+                    "defaultValue": {
+                        "cssClass": "primary",
+                                              "rgbValue":"rgb(255,255,255)"
+                    }
+                },
+                              {
+                    "name": "buttonTextColor",
+                    "label": "Cor do Texto do Botão",
+                    "type": "colorPalette",
+                    "dataType": "object",
+                    "defaultValue": {
+                        "cssClass": "white",
+                                              "rgbValue":"rgb(255,255,255)"
+                    }
+                }
+            ]
+        }
+    ]
+}
